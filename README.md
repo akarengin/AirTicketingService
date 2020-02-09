@@ -1,6 +1,6 @@
 # Air Ticketing Service 
 
-This application enables to buy tickets, searching for your tickets and canceling them if you wish. Every time quota exceeded by 10%, ticket price increases 10%.
+This application enables to buy tickets, searching for your tickets and canceling them if you wish. Every time quota exceeds by 10%, ticket price increases 10%.
 
 ## Prerequisites
 
@@ -45,8 +45,7 @@ To run this project, these softwares will be needed:
 	}
 	
 	
-For example, in this method, SpringBoot annotations provide us with making HTTP requests by Postman. To delete a ticket from database, JPA repository finds ticket entity that has requested pnr and tickets are drawn from the H2 database shown in SQL tables if you type http://localhost:8084/h2-console in a web browser. 8084 is the port number specified in the application.properties file. 
-
+For example, in this method, SpringBoot annotations enable us to make HTTP requests by Postman in JSON format. The JPA repository finds a related ticket entity that matches wanted PNR. Data related to this ticket retrieved from the H2 database is shown in SQL tables if you type http://localhost:8084/h2-console in a web browser. 8084 is the port number specified in the application.properties file. 
 
 ## Running the tests
 
